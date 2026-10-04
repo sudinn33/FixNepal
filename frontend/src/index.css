@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #111827;
+  --color-paper: #f6f5f2;
+  --color-sand: #e9e7e0;
+  --color-signal: #c8102e;
+  --color-workshop: #0b2a6b;
+  --color-steel: #64748b;
+  --color-brass: #e0a526;
+  --font-display: "Oswald", sans-serif;
+  --font-body: "IBM Plex Sans", sans-serif;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
